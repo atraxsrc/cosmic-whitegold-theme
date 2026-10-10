@@ -3,7 +3,7 @@
 # Pop!_OS · COSMIC · White Gold
 
 Pop!_OS 24.04 on COSMIC in parchment and dark gold: desktop, terminal, shell,
-Firefox, cursor. The light sibling of
+Firefox, cursor, wallpapers. The light sibling of
 [cosmic-darkgold-theme](https://github.com/atraxsrc/cosmic-darkgold-theme).
 
 ![Pop!_OS](https://img.shields.io/badge/Pop!_OS-24.04_LTS-655628?style=for-the-badge&logo=popos&logoColor=white)
@@ -269,11 +269,20 @@ gtk-update-icon-cache -f ~/.local/share/icons/Gruvbox-Light
 # Settings → Desktop → Appearance → Icons → Gruvbox-Light
 ```
 
-Wallpapers are not shipped here. The parchment grass hills and the ink koi in
-the upstream
-[`backgrounds/`](https://github.com/HANCORE-linux/omarchy-whitegold-theme/tree/main/backgrounds)
-folder (`BG1.jpg`, `BG2.jpg`) match this palette; that repo states no licence
-for them, so download them yourself: Settings → Wallpaper → Add image.
+Wallpapers live in [cool-wallpapers](https://github.com/atraxsrc/cool-wallpapers),
+folder [`omarchy/white-gold/`](https://github.com/atraxsrc/cool-wallpapers/tree/main/omarchy/white-gold)
+(mirrored from the upstream theme, MIT, licence in the folder). The two that
+match this palette best:
+
+| File | What it is |
+|------|------------|
+| [`white-gold-bg1-3840x2160.jpg`](https://github.com/atraxsrc/cool-wallpapers/blob/main/omarchy/white-gold/white-gold-bg1-3840x2160.jpg) | Dry gold grass under a pale sky, dark hills |
+| [`white-gold-bg2-3840x2160.jpg`](https://github.com/atraxsrc/cool-wallpapers/blob/main/omarchy/white-gold/white-gold-bg2-3840x2160.jpg) | Two ink koi on cream paper |
+
+`bg3` to `bg5` (golden tree, cloud pagodas, baroque chapel) are warmer and
+busier than the UI colours but are in the same folder.
+
+Settings → Wallpaper → Add image → the file you downloaded.
 
 ---
 
@@ -301,6 +310,10 @@ cd cosmic-whitegold-theme
 ./fastfetch/install.sh
 mkdir -p ~/.config/btop/themes && cp btop/WhiteGold.theme ~/.config/btop/themes/
 
+# wallpaper
+# Settings → Wallpaper → Add image → a file from
+# https://github.com/atraxsrc/cool-wallpapers/tree/main/omarchy/white-gold
+
 # icons (see Icons above) + Maple fonts (https://github.com/subframe7536/maple-font), then
 # fonts, icons, terminal look from cosmic/config/
 ./cosmic/install.sh
@@ -323,9 +336,9 @@ mkdir -p ~/.config/btop/themes && cp btop/WhiteGold.theme ~/.config/btop/themes/
 
 ## Credits
 
-- Palette: [omarchy-whitegold-theme](https://github.com/HANCORE-linux/omarchy-whitegold-theme)
-  by HANCORE-linux (MIT). This repo is a COSMIC port with a dark gold accent,
-  not a copy; no files from that repo are included.
+- Palette and wallpapers: [omarchy-whitegold-theme](https://github.com/HANCORE-linux/omarchy-whitegold-theme)
+  by HANCORE-linux (MIT). This repo is a COSMIC port with a dark gold accent;
+  the wallpapers are mirrored in cool-wallpapers, not here.
 - Dark sibling and shared baseline: [cosmic-darkgold-theme](https://github.com/atraxsrc/cosmic-darkgold-theme).
 
 ## License
