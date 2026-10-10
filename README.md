@@ -269,10 +269,19 @@ gtk-update-icon-cache -f ~/.local/share/icons/Gruvbox-Light
 # Settings → Desktop → Appearance → Icons → Gruvbox-Light
 ```
 
-Wallpapers live in [cool-wallpapers](https://github.com/atraxsrc/cool-wallpapers),
-folder [`omarchy/white-gold/`](https://github.com/atraxsrc/cool-wallpapers/tree/main/omarchy/white-gold)
-(mirrored from the upstream theme, MIT, licence in the folder). The two that
-match this palette best:
+Wallpapers live in [cool-wallpapers](https://github.com/atraxsrc/cool-wallpapers).
+
+Two wallpapers made for this rice, recoloured from the COSMIC astronaut and the
+Harbor Dark reaper so they sit on the exact window background:
+
+| File | What it is |
+|------|------------|
+| [`cosmic-astronaut-whitegold-3840x2160.png`](https://github.com/atraxsrc/cool-wallpapers/blob/main/cosmic/cosmic-astronaut-whitegold-3840x2160.png) | COSMIC astronaut in dark gold on parchment |
+| [`reaper-skull-whitegold-3440x1440.png`](https://github.com/atraxsrc/cool-wallpapers/blob/main/reaper/reaper-skull-whitegold-3440x1440.png) | Reaper in brass and wine on parchment |
+
+From the upstream theme, folder
+[`omarchy/white-gold/`](https://github.com/atraxsrc/cool-wallpapers/tree/main/omarchy/white-gold)
+(MIT, licence in the folder), the two that match this palette best:
 
 | File | What it is |
 |------|------------|
