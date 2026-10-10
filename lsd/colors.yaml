@@ -1,0 +1,41 @@
+# 256-colour codes nearest the White Gold palette on parchment (lsd 1.0.0 does
+# not accept #hex here): 58 olive gold, 94 bronze, 88 wine, 60 slate,
+# 241 muted, 240 graphite, 245 sand (dim).
+user: 58
+group: 241
+permission:
+  read: 241
+  write: 94
+  exec: 88
+  exec-sticky: 88
+  no-access: 245
+  octal: 240
+  acl: 240
+  context: 240
+date:
+  hour-old: 94
+  day-old: 58
+  older: 245
+size:
+  none: 245
+  small: 58
+  medium: 94
+  large: 88
+inode:
+  valid: 58
+  invalid: 88
+links:
+  valid: 60
+  invalid: 88
+tree-edge: 245
+git-status:
+  default: 245
+  unmodified: 245
+  ignored: 245
+  new-in-index: 58
+  new-in-workdir: 58
+  typechange: 94
+  deleted: 88
+  renamed: 60
+  modified: 94
+  conflicted: 88

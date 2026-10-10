@@ -1,0 +1,29 @@
+/* ==========================================================================
+   White Gold - userContent.css
+   Based on Cosmic Night v2 (variables only)
+
+   Color only. No size / position changes.
+
+   Install:  chrome/userContent.css   (same pref + restart as userChrome.css)
+   ========================================================================== */
+
+@-moz-document url-prefix("about:newtab"),
+               url-prefix("about:home"),
+               url-prefix("about:privatebrowsing") {
+
+  :root {
+    --newtab-primary-action-background: #655628 !important;
+    --newtab-primary-action-background-dimmed: rgba(101, 86, 40, 0.25) !important;
+
+    --newtab-focus-border: #655628 !important;
+    --newtab-focus-outline: #655628 !important;
+    --newtab-textbox-focus-color: #655628 !important;
+
+    --in-content-accent-color: #655628 !important;
+    --in-content-accent-color-active: #725C0A !important;
+    --in-content-focus-outline-color: #655628 !important;
+
+    --link-color: #4A545A !important;
+    --link-color-hover: #0C0C14 !important;
+  }
+}
