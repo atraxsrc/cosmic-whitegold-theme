@@ -85,6 +85,8 @@ window background.
 │   ├── whitegold.zsh            # LS_COLORS, highlighting colours, aliases, starship
 │   └── install.sh
 ├── assets/cursors               # cursor preview
+├── docs
+│   └── showcase.md              # the rice describing itself, for the Postilla pane of the screenshot
 ├── LICENSE
 └── README.md
 ```
