@@ -270,14 +270,16 @@ gtk-update-icon-cache -f ~/.local/share/icons/Gruvbox-Light
 ```
 
 Wallpapers live in [cool-wallpapers](https://github.com/atraxsrc/cool-wallpapers).
-
-Two wallpapers made for this rice, recoloured from the COSMIC astronaut and the
-Harbor Dark reaper so they sit on the exact window background:
+This rice's own set is in [`cosmic/whitegold/`](https://github.com/atraxsrc/cool-wallpapers/tree/main/cosmic/whitegold): four pieces recoloured to the
+palette, each as a 3840 wide PNG with the small JPEG it was upscaled from next to it.
 
 | File | What it is |
 |------|------------|
-| [`cosmic-astronaut-whitegold-3840x2160.png`](https://github.com/atraxsrc/cool-wallpapers/blob/main/cosmic/cosmic-astronaut-whitegold-3840x2160.png) | COSMIC astronaut in dark gold on parchment |
-| [`reaper-skull-whitegold-3440x1440.png`](https://github.com/atraxsrc/cool-wallpapers/blob/main/reaper/reaper-skull-whitegold-3440x1440.png) | Reaper in brass and wine on parchment |
+| [`whitegold-samurai-3840x2166.png`](https://github.com/atraxsrc/cool-wallpapers/blob/main/cosmic/whitegold/whitegold-samurai-3840x2166.png) | Samurai silhouette against a gold sun, on parchment |
+| [`whitegold-reaper-skull-3840x1609.png`](https://github.com/atraxsrc/cool-wallpapers/blob/main/cosmic/whitegold/whitegold-reaper-skull-3840x1609.png) | Harbor Dark reaper in brass and wine |
+| [`whitegold-hyundai-blueprint-3840x2160.png`](https://github.com/atraxsrc/cool-wallpapers/blob/main/cosmic/whitegold/whitegold-hyundai-blueprint-3840x2160.png) | Hyundai N Vision blueprint in gold line work |
+| [`whitegold-sushi-switch-3840x1609.png`](https://github.com/atraxsrc/cool-wallpapers/blob/main/cosmic/whitegold/whitegold-sushi-switch-3840x1609.png) | Sushi and a Switch, parchment and gold |
+
 
 From the upstream theme, folder
 [`omarchy/white-gold/`](https://github.com/atraxsrc/cool-wallpapers/tree/main/omarchy/white-gold)
@@ -321,7 +323,7 @@ mkdir -p ~/.config/btop/themes && cp btop/WhiteGold.theme ~/.config/btop/themes/
 
 # wallpaper
 # Settings → Wallpaper → Add image → a file from
-# https://github.com/atraxsrc/cool-wallpapers/tree/main/omarchy/white-gold
+# https://github.com/atraxsrc/cool-wallpapers/tree/main/cosmic/whitegold
 
 # icons (see Icons above) + Maple fonts (https://github.com/subframe7536/maple-font), then
 # fonts, icons, terminal look from cosmic/config/
