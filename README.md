@@ -15,6 +15,7 @@ Firefox, cursor, wallpapers. The light sibling of
 </div>
 
 ---
+![Pop!_OS COSMIC desktop with the White Gold theme](assets/screenshot.png)
 
 ## Palette
 
@@ -85,7 +86,10 @@ window background.
 ├── zsh
 │   ├── whitegold.zsh            # LS_COLORS, highlighting colours, aliases, starship
 │   └── install.sh
-├── assets/cursors               # cursor preview
+├── assets
+│   ├── cursors/                 # cursor preview
+│   ├── screenshot.png           # README screenshot
+│   └── wallpaper.png            # the samurai on the bare desktop
 ├── docs
 │   └── showcase.md              # the rice describing itself, for the Postilla pane of the screenshot
 ├── LICENSE
@@ -314,6 +318,8 @@ From the upstream theme, folder
 busier than the UI colours but are in the same folder.
 
 Settings → Wallpaper → Add image → the file you downloaded.
+
+![The samurai wallpaper on the White Gold desktop, panel only](assets/wallpaper.png)
 
 ---
 

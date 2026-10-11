@@ -42,8 +42,8 @@ flowchart LR
 - [x] `./cosmic/install.sh` for fonts, **Gruvbox-Light** icons and the terminal look
 - [x] `./zsh/install.sh`, `./lsd/install.sh`, `./fastfetch/install.sh`
 - [x] Cursor: Oxygen-17-Black
-- [ ] Wallpaper: `cool-wallpapers/cosmic/whitegold/whitegold-samurai`
-- [ ] Screenshot for the README
+- [x] Wallpaper: `cool-wallpapers/cosmic/whitegold/whitegold-samurai`
+- [x] Screenshot for the README
 
 ## The baseline every rice shares
 
