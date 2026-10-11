@@ -1,6 +1,6 @@
 <div align="center">
 
-# Pop!_OS · COSMIC · White Gold
+# COSMIC · White Gold
 
 Pop!_OS 24.04 on COSMIC in parchment and dark gold: desktop, terminal, shell,
 Firefox, cursor, wallpapers. The light sibling of
