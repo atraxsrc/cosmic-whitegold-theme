@@ -79,6 +79,7 @@ window background.
 │   ├── config.yaml              # theme: custom
 │   ├── colors.yaml              # permission / size / date / git columns
 │   └── install.sh
+├── nvim                         # Neovim colorscheme, LazyVim spec, RON syntax, install.sh
 ├── scripts
 │   └── update_system.sh         # nala + flatpak, dark ANSI for a light terminal
 ├── zsh
@@ -245,6 +246,23 @@ COSMIC logo in gold, Hardware / Software / Age boxes in sand with slate keys.
 fastfetch
 ```
 
+### Neovim
+
+`nvim/` carries the rice into Neovim: a dependency-free colorscheme built from
+the palette (`nvim/colors/whitegold.lua`), a LazyVim spec that selects it and makes
+sure the treesitter parsers for the files in this repo are installed
+(`nvim/lua/plugins/whitegold.lua`), and a small RON syntax file so `cosmic/*.ron`
+is coloured even before the parser exists. `:terminal` inside Neovim uses the
+White Gold scheme.
+
+```bash
+./nvim/install.sh
+# restart nvim; LazyVim switches to the whitegold colorscheme
+```
+
+Without LazyVim, copy `nvim/colors/whitegold.lua` to `~/.config/nvim/colors/` and
+run `:colorscheme whitegold`.
+
 ### btop
 
 `btop/WhiteGold.theme`: parchment background, sand boxes, gold titles, meters
@@ -321,6 +339,7 @@ cd cosmic-whitegold-theme
 ./zsh/install.sh
 ./lsd/install.sh
 ./fastfetch/install.sh
+./nvim/install.sh
 mkdir -p ~/.config/btop/themes && cp btop/WhiteGold.theme ~/.config/btop/themes/
 
 # wallpaper
