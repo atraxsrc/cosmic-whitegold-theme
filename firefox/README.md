@@ -26,7 +26,7 @@ Stylesheets:
 ```
 firefox/
 ├── theme/            WebExtension theme source (Cosmic White Gold)
-│   ├── manifest.json     harbordark's 24 colour keys + a pinned URL bar ring
+│   ├── manifest.json     DarkGold's 24 colour keys + a pinned URL bar ring
 │   └── icons/            32 / 48 / 64 / 96 / 128, cropped from whitegold-samurai
 ├── chrome/
 │   ├── userChrome.css    browser UI: rounded corners, gold menu hover
@@ -44,7 +44,7 @@ Two layers, use one or both:
 
 ## Theme
 
-Same colour keys and roles as DarkGold's harbordark: icons take the calm
+Same colour keys and roles as DarkGold's Firefox theme: icons take the calm
 accent (dark gold, as in DarkGold), and everything "hot" (tab line, pressed
 button, menu and sidebar selection, loading) takes the loud one (wine here,
 coral in DarkGold). Wine is the rice's own error red, the deep end of
