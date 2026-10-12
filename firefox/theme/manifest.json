@@ -1,0 +1,47 @@
+{
+  "manifest_version": 2,
+  "name": "Cosmic White Gold",
+  "version": "1.0",
+  "description": "Parchment light theme from the COSMIC White Gold rice: dark gold icons, one wine accent.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{ce170dcd-28c8-4295-ba1b-bc18a3e69e12}"
+    }
+  },
+  "icons": {
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "64": "icons/icon-64.png",
+    "96": "icons/icon-96.png",
+    "128": "icons/icon-128.png"
+  },
+  "theme": {
+    "colors": {
+      "toolbar": "#e9e6d3",
+      "toolbar_text": "#0c0c14",
+      "frame": "#dedbc8",
+      "tab_background_text": "#665e4a",
+      "toolbar_field": "#f2f0e3",
+      "toolbar_field_text": "#0c0c14",
+      "toolbar_field_border_focus": "#7a1f22",
+      "tab_line": "#7a1f22",
+      "popup": "#e9e6d3",
+      "popup_text": "#0c0c14",
+      "button_background_active": "#7a1f22",
+      "button_background_hover": "#d5d2bf",
+      "frame_inactive": "#dedbc8",
+      "icons_attention": "#7a1f22",
+      "icons": "#655628",
+      "ntp_background": "#dedbc8",
+      "ntp_text": "#0c0c14",
+      "popup_border": "#918d78",
+      "popup_highlight_text": "#f2f0e3",
+      "popup_highlight": "#7a1f22",
+      "sidebar_border": "#bfbba6",
+      "sidebar_highlight_text": "#f2f0e3",
+      "sidebar_highlight": "#7a1f22",
+      "sidebar_text": "#0c0c14",
+      "tab_loading": "#7a1f22"
+    }
+  }
+}

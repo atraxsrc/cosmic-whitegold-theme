@@ -71,9 +71,10 @@ window background.
 │   ├── cosmic.txt               # COSMIC logo
 │   └── install.sh
 ├── firefox
+│   ├── theme                    # Cosmic White Gold theme add-on (manifest + icons)
 │   ├── chrome
-│   │   ├── userChrome.css       # rounded chrome, parchment menus
-│   │   └── userContent.css      # new tab accent
+│   │   ├── userChrome.css       # rounded chrome, parchment menus, gold hover
+│   │   └── userContent.css      # new tab accents, blank tiles
 │   ├── install.sh
 │   └── README.md
 ├── lsd

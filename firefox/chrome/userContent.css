@@ -1,8 +1,13 @@
 /* ==========================================================================
    White Gold - userContent.css
-   Based on Cosmic Night v2 (variables only)
+   Ported from the DarkGold baseline, recoloured for the COSMIC White Gold
+   palette (light)
 
-   Color only. No size / position changes.
+   New tab / home / private pages only:
+     - gold accent and focus, olive links
+     - gold focus ring on shortcut tiles, gold personalize button
+     - shortcut artwork hidden (tiles stay, icons go blank)
+   No size / position changes.
 
    Install:  chrome/userContent.css   (same pref + restart as userChrome.css)
    ========================================================================== */
@@ -15,15 +20,49 @@
     --newtab-primary-action-background: #655628 !important;
     --newtab-primary-action-background-dimmed: rgba(101, 86, 40, 0.25) !important;
 
+    --color-accent-primary: #655628 !important;
+    --color-accent-primary-hover: #4A4839 !important;
+    --color-accent-primary-active: #4A4839 !important;
+
     --newtab-focus-border: #655628 !important;
     --newtab-focus-outline: #655628 !important;
     --newtab-textbox-focus-color: #655628 !important;
 
     --in-content-accent-color: #655628 !important;
-    --in-content-accent-color-active: #725C0A !important;
+    --in-content-accent-color-active: #4A4839 !important;
     --in-content-focus-outline-color: #655628 !important;
 
-    --link-color: #4A545A !important;
+    --link-color: #725C0A !important;
     --link-color-hover: #0C0C14 !important;
+
+    --focus-outline-color: #655628 !important;
+    --focus-outline: 2px solid #655628 !important;
+    --newtab-button-focus-border: #655628 !important;
+    --button-background-color: #655628 !important;
+    --button-text-color: #F2F0E3 !important;
+  }
+
+  .top-site-outer:is(:focus, :focus-visible, .active) .tile,
+  .top-site-outer .top-site-button:focus .tile,
+  .top-site-outer .top-site-button:focus-visible .tile {
+    outline: 2px solid #655628 !important;
+    border-color: #655628 !important;
+  }
+
+  .personalize-button {
+    background-color: #655628 !important;
+    color: #F2F0E3 !important;
+  }
+
+  /* Hide shortcut artwork so tiles stay blank */
+  .top-site-icon,
+  .top-site-icon.rich-icon,
+  .top-site-icon.default-icon,
+  .screenshot,
+  .screenshot.active,
+  .letter-fallback {
+    background-image: none !important;
+    background-color: transparent !important;
+    opacity: 0 !important;
   }
 }
