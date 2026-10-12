@@ -26,7 +26,7 @@ Stylesheets:
 ```
 firefox/
 ├── theme/            WebExtension theme source (Cosmic White Gold)
-│   ├── manifest.json     DarkGold's 24 colour keys + a pinned URL bar ring
+│   ├── manifest.json     DarkGold's 24 colour keys + URL bar ring and selection
 │   └── icons/            32 / 48 / 64 / 96 / 128, cropped from whitegold-samurai
 ├── chrome/
 │   ├── userChrome.css    browser UI: rounded corners, gold menu hover
@@ -52,8 +52,10 @@ DarkGold's coral. The stylesheets keep gold for hover and focus, like
 DarkGold's. One extra key, `toolbar_field_border_focus`, pins the focused URL
 bar ring to wine so it does not fall back to the desktop accent
 when `widget.non-native-theme.use-theme-accent` is on (the Firefox default on
-Linux). Every text colour clears WCAG AA (4.5:1) on its background; icons
-and the tab line clear 3:1.
+Linux). Two more, `toolbar_field_highlight` and `toolbar_field_highlight_text`,
+colour selected text in the URL bar the same way, as DarkGold does. Every
+text colour clears WCAG AA (4.5:1) on its background; icons and the tab
+line clear 3:1.
 
 | Hex       | Where in the theme                          |
 |-----------|---------------------------------------------|
@@ -66,7 +68,7 @@ and the tab line clear 3:1.
 | `#0C0C14` | Body text                                   |
 | `#665E4A` | Inactive tab text                           |
 | `#655628` | Icons                                       |
-| `#7A1F22` | Focused URL bar ring, tab line, pressed button, menu and sidebar selection, loading, attention |
+| `#7A1F22` | Focused URL bar ring and text selection, tab line, pressed button, menu and sidebar selection, loading, attention |
 
 Build the package:
 

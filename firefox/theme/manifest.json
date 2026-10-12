@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Cosmic White Gold",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Parchment light theme from the COSMIC White Gold rice: dark gold icons, one wine accent.",
   "browser_specific_settings": {
     "gecko": {
@@ -24,6 +24,8 @@
       "toolbar_field": "#f2f0e3",
       "toolbar_field_text": "#0c0c14",
       "toolbar_field_border_focus": "#7a1f22",
+      "toolbar_field_highlight": "#7a1f22",
+      "toolbar_field_highlight_text": "#f2f0e3",
       "tab_line": "#7a1f22",
       "popup": "#e9e6d3",
       "popup_text": "#0c0c14",
