@@ -53,6 +53,7 @@ window background.
 
 ```
 .
+├── backgrounds/                 # wallpapers, whitegold-<subject>.png (see Icons and wallpaper)
 ├── btop
 │   └── WhiteGold.theme          # btop colour theme
 ├── cosmic
@@ -311,19 +312,20 @@ Restart open apps afterwards (Files caches icons per window).
 Add `--system` to install to `/usr/share/icons` instead, for every user and the
 login screen (asks for sudo); `--user` is the default.
 
-Wallpapers live in [cool-wallpapers](https://github.com/atraxsrc/cool-wallpapers).
-This rice's own set is in [`cosmic/whitegold/`](https://github.com/atraxsrc/cool-wallpapers/tree/main/cosmic/whitegold): four pieces recoloured to the
-palette, each as a 3840 wide PNG with the small JPEG it was upscaled from next to it.
+Wallpapers ship in [`backgrounds/`](backgrounds/), named `whitegold-<subject>.png`:
+four pieces rendered in this palette, each upscaled to 3840 wide. The reaper and
+the blueprint are Harbor Dark subjects ([HANCORE-linux](https://github.com/HANCORE-linux),
+MIT); the samurai and the sushi are from the Tokyo Night set in
+[cool-wallpapers](https://github.com/atraxsrc/cool-wallpapers).
 
-| File | What it is |
-|------|------------|
-| [`whitegold-samurai-3840x2166.png`](https://github.com/atraxsrc/cool-wallpapers/blob/main/cosmic/whitegold/whitegold-samurai-3840x2166.png) | Samurai silhouette against a gold sun, on parchment |
-| [`whitegold-reaper-skull-3840x1609.png`](https://github.com/atraxsrc/cool-wallpapers/blob/main/cosmic/whitegold/whitegold-reaper-skull-3840x1609.png) | Harbor Dark reaper in brass and wine |
-| [`whitegold-hyundai-blueprint-3840x2160.png`](https://github.com/atraxsrc/cool-wallpapers/blob/main/cosmic/whitegold/whitegold-hyundai-blueprint-3840x2160.png) | Hyundai N Vision blueprint in gold line work |
-| [`whitegold-sushi-switch-3840x1609.png`](https://github.com/atraxsrc/cool-wallpapers/blob/main/cosmic/whitegold/whitegold-sushi-switch-3840x1609.png) | Sushi and a Switch, parchment and gold |
+| File | Size | What it is |
+|------|------|------------|
+| [`whitegold-samurai.png`](backgrounds/whitegold-samurai.png) | 3840x2166 | Samurai silhouette against a gold sun, on parchment, the one in the screenshot |
+| [`whitegold-reaper-skull.png`](backgrounds/whitegold-reaper-skull.png) | 3840x1609 | Harbor Dark reaper in brass and wine |
+| [`whitegold-hyundai-blueprint.png`](backgrounds/whitegold-hyundai-blueprint.png) | 3840x2160 | Hyundai N Vision 74 blueprint in gold line work |
+| [`whitegold-sushi-switch.png`](backgrounds/whitegold-sushi-switch.png) | 3840x1609 | Sushi on a Switch, parchment and gold |
 
-
-From the upstream theme, folder
+More from the upstream theme, in [cool-wallpapers](https://github.com/atraxsrc/cool-wallpapers) folder
 [`omarchy/white-gold/`](https://github.com/atraxsrc/cool-wallpapers/tree/main/omarchy/white-gold)
 (MIT, licence in the folder), the two that match this palette best:
 
@@ -335,7 +337,7 @@ From the upstream theme, folder
 `bg3` to `bg5` (golden tree, cloud pagodas, baroque chapel) are warmer and
 busier than the UI colours but are in the same folder.
 
-Settings → Wallpaper → Add image → the file you downloaded.
+Settings → Wallpaper → Add image → a file from `backgrounds/`, or one you downloaded.
 
 ![The samurai wallpaper on the White Gold desktop, panel only](assets/wallpaper.png)
 
@@ -370,8 +372,7 @@ cd cosmic-whitegold-theme
 mkdir -p ~/.config/btop/themes && cp btop/WhiteGold.theme ~/.config/btop/themes/
 
 # wallpaper
-# Settings → Wallpaper → Add image → a file from
-# https://github.com/atraxsrc/cool-wallpapers/tree/main/cosmic/whitegold
+# Settings → Wallpaper → Add image → a file from backgrounds/ (see Icons and wallpaper above)
 
 ./icons/install.sh                  # icons (see Icons above)
 # Maple fonts (https://github.com/subframe7536/maple-font), then
@@ -398,7 +399,8 @@ mkdir -p ~/.config/btop/themes && cp btop/WhiteGold.theme ~/.config/btop/themes/
 
 - Palette and wallpapers: [omarchy-whitegold-theme](https://github.com/HANCORE-linux/omarchy-whitegold-theme)
   by HANCORE-linux (MIT). This repo is a COSMIC port with a dark gold accent;
-  the wallpapers are mirrored in cool-wallpapers, not here.
+  the upstream wallpapers are mirrored in cool-wallpapers, the renders for this
+  palette are in `backgrounds/`.
 - Dark sibling and shared baseline: [cosmic-darkgold-theme](https://github.com/atraxsrc/cosmic-darkgold-theme).
 
 ## License
