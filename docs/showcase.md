@@ -39,7 +39,7 @@ flowchart LR
 
 - [x] Import `cosmic/WhiteGold.ron` into Appearance, **Light** slot
 - [x] Import `cosmic-term/WhiteGold-term.ron`, pick **White Gold** for the profile
-- [x] `./cosmic/install.sh` for fonts, **Gruvbox-Light** icons and the terminal look
+- [x] `./icons/install.sh` for the **Cosmic-WhiteGold** icons, `./cosmic/install.sh` for fonts and the terminal look
 - [x] `./zsh/install.sh`, `./lsd/install.sh`, `./fastfetch/install.sh`
 - [x] Cursor: Oxygen-17-Black
 - [x] Wallpaper: `cool-wallpapers/cosmic/whitegold/whitegold-samurai`

@@ -66,6 +66,8 @@ window background.
 │   ├── install.sh
 │   ├── uninstall.sh
 │   └── README.md
+├── icons
+│   └── install.sh               # Cosmic-WhiteGold icon pack from cosmic-icon-themes
 ├── fastfetch
 │   ├── config.jsonc             # gold / slate fastfetch config
 │   ├── cosmic.txt               # COSMIC logo
@@ -129,12 +131,12 @@ per-rice files, see below.
 | Where | Setting |
 |-------|---------|
 | Fonts | Interface `Maple Normal UI`, monospace `Maple Mono Normal NFM` |
-| Icons | Gruvbox-Light |
+| Icons | Cosmic-WhiteGold-Gold |
 | Windows | Minimize / maximize buttons hidden, theme applied to GNOME apps |
 | Terminal | Maple Mono 15 (weights 500 / bold 800 / dim 300), 77% opacity, no header bar, White Gold (light scheme) |
 
 Install the [Maple fonts](https://github.com/subframe7536/maple-font) and the
-icons (see Icons below) and import the terminal scheme first, then:
+Cosmic-WhiteGold icons (see Icons below) and import the terminal scheme first, then:
 
 ```bash
 ./cosmic/install.sh
@@ -284,16 +286,21 @@ cp btop/WhiteGold.theme ~/.config/btop/themes/
 
 ## Icons and wallpaper
 
-Icons: **Gruvbox-Light** from
-[Fausto-Korpsvart/Gruvbox-GTK-Theme](https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme):
+Icons: **Cosmic-WhiteGold**, the [Kanagawa icons](https://github.com/Fausto-Korpsvart/Kanagawa-GKT-Theme/tree/main/icons/Kanagawa)
+by Fausto Korpsvart recolored to this palette in
+[cosmic-icon-themes](https://github.com/atraxsrc/cosmic-icon-themes). Folders come in
+four colors: **Gold** `#655628` (default), **Red** `#7A1F22`, **Slate** `#4A545A` and **Ink** `#0C0C14` with gold symbols.
+
+![Cosmic-WhiteGold folder colors](https://raw.githubusercontent.com/atraxsrc/cosmic-icon-themes/main/previews/Cosmic-WhiteGold.png)
 
 ```bash
-git clone --depth 1 https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme.git
-mkdir -p ~/.local/share/icons
-cp -r Gruvbox-GTK-Theme/icons/Gruvbox-Light ~/.local/share/icons/
-gtk-update-icon-cache -f ~/.local/share/icons/Gruvbox-Light
-# Settings → Desktop → Appearance → Icons → Gruvbox-Light
+./icons/install.sh                # Gold folders
+./icons/install.sh --variant Red  # or Slate, Ink
 ```
+
+It downloads the pack from the latest cosmic-icon-themes release, checks its SHA256,
+installs it to `~/.local/share/icons/` and sets it as the COSMIC icon theme.
+Restart open apps afterwards (Files caches icons per window).
 
 Wallpapers live in [cool-wallpapers](https://github.com/atraxsrc/cool-wallpapers).
 This rice's own set is in [`cosmic/whitegold/`](https://github.com/atraxsrc/cool-wallpapers/tree/main/cosmic/whitegold): four pieces recoloured to the
@@ -354,7 +361,8 @@ mkdir -p ~/.config/btop/themes && cp btop/WhiteGold.theme ~/.config/btop/themes/
 # Settings → Wallpaper → Add image → a file from
 # https://github.com/atraxsrc/cool-wallpapers/tree/main/cosmic/whitegold
 
-# icons (see Icons above) + Maple fonts (https://github.com/subframe7536/maple-font), then
+./icons/install.sh                  # icons (see Icons above)
+# Maple fonts (https://github.com/subframe7536/maple-font), then
 # fonts, icons, terminal look from cosmic/config/
 ./cosmic/install.sh
 ```
@@ -371,7 +379,7 @@ mkdir -p ~/.config/btop/themes && cp btop/WhiteGold.theme ~/.config/btop/themes/
 | [lsd](https://github.com/lsd-rs/lsd) | `ls` with icons and colours |
 | [fastfetch](https://github.com/fastfetch-cli/fastfetch) | System info |
 | [btop](https://github.com/aristocratos/btop) | Resource monitor |
-| [Gruvbox-GTK-Theme](https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme) | Icon pack (Gruvbox-Light) |
+| [cosmic-icon-themes](https://github.com/atraxsrc/cosmic-icon-themes) | Icon pack (Cosmic-WhiteGold), recolored from [Kanagawa icons](https://github.com/Fausto-Korpsvart/Kanagawa-GKT-Theme/tree/main/icons/Kanagawa) |
 | [Oxygen-Cursors](https://github.com/wo2ni/Oxygen-Cursors) | Cursor (black) |
 
 ## Credits
