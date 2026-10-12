@@ -9,7 +9,7 @@ Firefox, cursor, wallpapers. The light sibling of
 ![Pop!_OS](https://img.shields.io/badge/Pop!_OS-24.04_LTS-655628?style=for-the-badge&logo=popos&logoColor=white)
 ![COSMIC](https://img.shields.io/badge/COSMIC-1.0.0-725c0a?style=for-the-badge)
 ![White Gold](https://img.shields.io/badge/Theme-White_Gold-dedbc8?style=for-the-badge&labelColor=655628)
-![Firefox](https://img.shields.io/badge/Firefox-White_Gold-6c5319?style=for-the-badge&logo=firefox-browser&logoColor=white)
+![Firefox](https://img.shields.io/badge/Firefox-White_Gold-7a1f22?style=for-the-badge&logo=firefox-browser&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-4a545a?style=for-the-badge)
 
 </div>
