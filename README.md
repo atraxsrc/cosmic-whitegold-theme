@@ -301,6 +301,8 @@ four colors: **Gold** `#655628` (default), **Red** `#7A1F22`, **Slate** `#4A545A
 It downloads the pack from the latest cosmic-icon-themes release, checks its SHA256,
 installs it to `~/.local/share/icons/` and sets it as the COSMIC icon theme.
 Restart open apps afterwards (Files caches icons per window).
+Add `--system` to install to `/usr/share/icons` instead, for every user and the
+login screen (asks for sudo); `--user` is the default.
 
 Wallpapers live in [cool-wallpapers](https://github.com/atraxsrc/cool-wallpapers).
 This rice's own set is in [`cosmic/whitegold/`](https://github.com/atraxsrc/cool-wallpapers/tree/main/cosmic/whitegold): four pieces recoloured to the
