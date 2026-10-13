@@ -314,29 +314,12 @@ Add `--system` to install to `/usr/share/icons` instead, for every user and the
 login screen (asks for sudo); `--user` is the default.
 
 Wallpapers ship in [`backgrounds/`](backgrounds/), named `whitegold-<subject>.png`:
-four pieces rendered in this palette, each upscaled to 3840 wide. The reaper and
-the blueprint are Harbor Dark subjects ([HANCORE-linux](https://github.com/HANCORE-linux),
-MIT); the samurai and the sushi are from the Tokyo Night set in
-[cool-wallpapers](https://github.com/atraxsrc/cool-wallpapers).
-
-| File | Size | What it is |
-|------|------|------------|
-| [`whitegold-samurai.png`](backgrounds/whitegold-samurai.png) | 3840x2166 | Samurai silhouette against a gold sun, on parchment, the one in the screenshot |
-| [`whitegold-reaper-skull.png`](backgrounds/whitegold-reaper-skull.png) | 3840x1609 | Harbor Dark reaper in brass and wine |
-| [`whitegold-hyundai-blueprint.png`](backgrounds/whitegold-hyundai-blueprint.png) | 3840x2160 | Hyundai N Vision 74 blueprint in gold line work |
-| [`whitegold-sushi-switch.png`](backgrounds/whitegold-sushi-switch.png) | 3840x1609 | Sushi on a Switch, parchment and gold |
-
-More from the upstream theme, in [cool-wallpapers](https://github.com/atraxsrc/cool-wallpapers) folder
-[`omarchy/white-gold/`](https://github.com/atraxsrc/cool-wallpapers/tree/main/omarchy/white-gold)
-(MIT, licence in the folder), the two that match this palette best:
-
-| File | What it is |
-|------|------------|
-| [`white-gold-bg1-3840x2160.jpg`](https://github.com/atraxsrc/cool-wallpapers/blob/main/omarchy/white-gold/white-gold-bg1-3840x2160.jpg) | Dry gold grass under a pale sky, dark hills |
-| [`white-gold-bg2-3840x2160.jpg`](https://github.com/atraxsrc/cool-wallpapers/blob/main/omarchy/white-gold/white-gold-bg2-3840x2160.jpg) | Two ink koi on cream paper |
-
-`bg3` to `bg5` (golden tree, cloud pagodas, baroque chapel) are warmer and
-busier than the UI colours but are in the same folder.
+the samurai against a gold sun (the one in the screenshot), the Harbor Dark reaper,
+the Hyundai blueprint and the sushi switch, rendered on parchment and gold. The
+subjects come from [HANCORE-linux](https://github.com/HANCORE-linux) (MIT) and
+[cool-wallpapers](https://github.com/atraxsrc/cool-wallpapers). More from the upstream theme in cool-wallpapers, folder
+[`omarchy/white-gold/`](https://github.com/atraxsrc/cool-wallpapers/tree/main/omarchy/white-gold) (MIT): `bg1`, dry gold
+grass under a pale sky, and `bg2`, two ink koi, fit this palette best.
 
 Settings → Wallpaper → Add image → a file from `backgrounds/`, or one you downloaded.
 
