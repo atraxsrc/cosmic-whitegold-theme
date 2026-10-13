@@ -63,7 +63,7 @@ window background.
 ├── cosmic-term
 │   └── WhiteGold-term.ron       # COSMIC Terminal colour scheme (Light)
 ├── cursors
-│   ├── Oxygen-17-Black/         # cursor theme, patched for COSMIC apps
+│   ├── Oxygen-WhiteGold-*/       # cursor themes, one per icon colour, patched for COSMIC apps
 │   ├── install.sh
 │   ├── uninstall.sh
 │   └── README.md
@@ -185,16 +185,17 @@ Fully quit Firefox afterward. Details and CSS rules: [`firefox/README.md`](firef
 
 ## Cursor
 
-**Oxygen-17-Black**, the black member of the same Oxygen family DarkGold uses in
-red, patched with the cursor names COSMIC apps ask for. COSMIC has no cursor
-picker yet, so the script sets it:
+**Oxygen** cursors recoloured to the icon colours, one per folder colour of the
+Cosmic-WhiteGold icon pack: **Gold** (default), **Red**, **Slate**, **Ink**. Patched with the cursor
+names COSMIC apps ask for. COSMIC has no cursor picker yet, so the script sets it:
 
 ```bash
-./cursors/install.sh
+./cursors/install.sh                      # Gold
+./cursors/install.sh --variant Red       # or another, see --list
 reboot
 ```
 
-Why the patch, what the script touches and how to undo it:
+Previews, what the script touches, how to undo it and how the colours are made:
 [`cursors/README.md`](cursors/README.md).
 
 ---
@@ -362,7 +363,9 @@ cd cosmic-whitegold-theme
 ./firefox/install.sh
 
 # cursor (then reboot), see cursors/README.md
-./cursors/install.sh
+./cursors/install.sh                      # Gold
+./cursors/install.sh --variant Red       # or another, see --list
+reboot
 
 # shell + terminal tools (see Terminal extras above)
 ./zsh/install.sh
@@ -393,7 +396,7 @@ mkdir -p ~/.config/btop/themes && cp btop/WhiteGold.theme ~/.config/btop/themes/
 | [fastfetch](https://github.com/fastfetch-cli/fastfetch) | System info |
 | [btop](https://github.com/aristocratos/btop) | Resource monitor |
 | [cosmic-icon-themes](https://github.com/atraxsrc/cosmic-icon-themes) | Icon pack (Cosmic-WhiteGold), recolored from [Kanagawa icons](https://github.com/Fausto-Korpsvart/Kanagawa-GKT-Theme/tree/main/icons/Kanagawa) |
-| [Oxygen-Cursors](https://github.com/wo2ni/Oxygen-Cursors) | Cursor (black) |
+| [Oxygen-Cursors](https://github.com/wo2ni/Oxygen-Cursors) | Cursor, recoloured to the icon colours |
 
 ## Credits
 
