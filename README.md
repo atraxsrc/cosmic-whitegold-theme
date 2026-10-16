@@ -236,6 +236,9 @@ background is the plain window colour; to put a wallpaper behind the chat instea
 Built against Telegram Desktop 7.3.1. Calls, group calls, statistics charts and
 premium badges keep Telegram's own colours.
 
+Telegram has no dark / light pairing, so DarkGold, the dark half, ships its own
+theme.
+
 ---
 
 ## Cursor
