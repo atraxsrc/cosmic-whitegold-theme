@@ -13,10 +13,7 @@
     }
   },
   "display": {
-    "separator": ": ",
-    "color": {
-      "output": "38;2;12;12;20"
-    }
+    "separator": ": "
   },
   "modules": [
     "break",
