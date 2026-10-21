@@ -144,13 +144,14 @@ per-rice files, see below.
 
 | Where | Setting |
 |-------|---------|
-| Fonts | Interface `Maple Normal UI`, monospace `Maple Mono Normal NFM` |
+| Fonts | Interface `Maple Mono Normal`, monospace `Maple Mono Normal NFM` |
 | Icons | Cosmic-WhiteGold-Gold |
 | Windows | Minimize / maximize buttons hidden, theme applied to GNOME apps |
 | Terminal | Maple Mono 15 (weights 500 / bold 800 / dim 300), 77% opacity, no header bar, White Gold (light scheme) |
 
-Install the [Maple fonts](https://github.com/subframe7536/maple-font) and the
-Cosmic-WhiteGold icons (see Icons below) and import the terminal scheme first, then:
+Install the [Maple fonts](https://github.com/subframe7536/maple-font/releases)
+(Maple Mono Normal and Maple Mono Normal NFM) and the Cosmic-WhiteGold icons
+(see Icons below) and import the terminal scheme first, then:
 
 ```bash
 ./cosmic/install.sh
