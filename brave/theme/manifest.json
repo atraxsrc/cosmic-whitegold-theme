@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "Cosmic White Gold",
+  "version": "1.0",
+  "description": "Parchment light theme from the COSMIC White Gold rice: dark gold icons, one wine accent.",
+  "icons": {
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "theme": {
+    "colors": {
+      "frame": [222, 219, 200],
+      "frame_inactive": [222, 219, 200],
+      "frame_incognito": [222, 219, 200],
+      "frame_incognito_inactive": [222, 219, 200],
+      "background_tab": [222, 219, 200],
+      "background_tab_inactive": [222, 219, 200],
+      "background_tab_incognito": [222, 219, 200],
+      "background_tab_incognito_inactive": [222, 219, 200],
+      "toolbar": [233, 230, 211],
+      "tab_text": [122, 31, 34],
+      "tab_background_text": [101, 86, 40],
+      "tab_background_text_inactive": [101, 86, 40],
+      "tab_background_text_incognito": [101, 86, 40],
+      "tab_background_text_incognito_inactive": [101, 86, 40],
+      "bookmark_text": [12, 12, 20],
+      "toolbar_button_icon": [101, 86, 40],
+      "omnibox_background": [242, 240, 227],
+      "omnibox_text": [12, 12, 20],
+      "ntp_background": [222, 219, 200],
+      "ntp_text": [12, 12, 20],
+      "ntp_link": [122, 31, 34]
+    }
+  }
+}
