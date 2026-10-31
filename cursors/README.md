@@ -6,12 +6,12 @@ rice's icon colours: one per folder colour of the
 [Cosmic-WhiteGold](https://github.com/atraxsrc/cosmic-icon-themes) icon pack, **Gold**, **Red**, **Slate**, **Ink**.
 All patched so they work in COSMIC's own apps.
 
-| Variant | Preview | Body | Contrast on `#DEDBC8` | Goes with |
+| Variant | Preview | Body | Contrast on ![#DEDBC8](https://placehold.co/12x12/dedbc8/dedbc8.png) `#DEDBC8` | Goes with |
 | ------- | ------- | ---- | ------------------- | --------- |
-| **Gold** (default) | ![](../assets/cursors/Oxygen-WhiteGold-Gold.png) | `#655628` | 5.2:1 | Gold folders |
-| **Red** | ![](../assets/cursors/Oxygen-WhiteGold-Red.png) | `#7A1F22` | 7.4:1 | Red folders |
-| **Slate** | ![](../assets/cursors/Oxygen-WhiteGold-Slate.png) | `#4A545A` | 5.6:1 | Slate folders |
-| **Ink** | ![](../assets/cursors/Oxygen-WhiteGold-Ink.png) | `#0C0C14` | 14.0:1 | Ink folders |
+| **Gold** (default) | ![](../assets/cursors/Oxygen-WhiteGold-Gold.png) | ![#655628](https://placehold.co/12x12/655628/655628.png) `#655628` | 5.2:1 | Gold folders |
+| **Red** | ![](../assets/cursors/Oxygen-WhiteGold-Red.png) | ![#7A1F22](https://placehold.co/12x12/7a1f22/7a1f22.png) `#7A1F22` | 7.4:1 | Red folders |
+| **Slate** | ![](../assets/cursors/Oxygen-WhiteGold-Slate.png) | ![#4A545A](https://placehold.co/12x12/4a545a/4a545a.png) `#4A545A` | 5.6:1 | Slate folders |
+| **Ink** | ![](../assets/cursors/Oxygen-WhiteGold-Ink.png) | ![#0C0C14](https://placehold.co/12x12/0c0c14/0c0c14.png) `#0C0C14` | 14.0:1 | Ink folders |
 
 Each variant is a normal folder here (`Oxygen-WhiteGold-<Variant>/index.theme` + `cursors/`),
 already fixed for COSMIC. Nothing is downloaded at install time.

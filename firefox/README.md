@@ -11,15 +11,15 @@ Stylesheets:
 
 | Hex       | Role                      |
 |-----------|---------------------------|
-| `#E9E6D3` | Panels, menus             |
-| `#D5D0B9` | Menu hover row (gold tinted into the panel) |
-| `#CCC6AD` | Menu pressed row          |
-| `#BFBBA6` | Separators, menu border   |
-| `#655628` | Accent, URL bar border, hover rail |
-| `#4A4839` | Menu text, button hover, new tab active (umber, where DarkGold uses cream) |
-| `#725C0A` | New tab links (olive, where DarkGold uses brass) |
-| `#0C0C14` | Hover text                |
-| `#F2F0E3` | Text on gold              |
+| ![#E9E6D3](https://placehold.co/12x12/e9e6d3/e9e6d3.png) `#E9E6D3` | Panels, menus             |
+| ![#D5D0B9](https://placehold.co/12x12/d5d0b9/d5d0b9.png) `#D5D0B9` | Menu hover row (gold tinted into the panel) |
+| ![#CCC6AD](https://placehold.co/12x12/ccc6ad/ccc6ad.png) `#CCC6AD` | Menu pressed row          |
+| ![#BFBBA6](https://placehold.co/12x12/bfbba6/bfbba6.png) `#BFBBA6` | Separators, menu border   |
+| ![#655628](https://placehold.co/12x12/655628/655628.png) `#655628` | Accent, URL bar border, hover rail |
+| ![#4A4839](https://placehold.co/12x12/4a4839/4a4839.png) `#4A4839` | Menu text, button hover, new tab active (umber, where DarkGold uses cream) |
+| ![#725C0A](https://placehold.co/12x12/725c0a/725c0a.png) `#725C0A` | New tab links (olive, where DarkGold uses brass) |
+| ![#0C0C14](https://placehold.co/12x12/0c0c14/0c0c14.png) `#0C0C14` | Hover text                |
+| ![#F2F0E3](https://placehold.co/12x12/f2f0e3/f2f0e3.png) `#F2F0E3` | Text on gold              |
 
 ## Structure
 
@@ -59,16 +59,16 @@ line clear 3:1.
 
 | Hex       | Where in the theme                          |
 |-----------|---------------------------------------------|
-| `#DEDBC8` | Frame, new tab                              |
-| `#E9E6D3` | Toolbar, menus                              |
-| `#F2F0E3` | URL bar field, text on wine selections      |
-| `#D5D2BF` | Button hover                                |
-| `#BFBBA6` | Sidebar border                              |
-| `#918D78` | Menu border                                 |
-| `#0C0C14` | Body text                                   |
-| `#665E4A` | Inactive tab text                           |
-| `#655628` | Icons                                       |
-| `#7A1F22` | Focused URL bar ring and text selection, tab line, pressed button, menu and sidebar selection, loading, attention |
+| ![#DEDBC8](https://placehold.co/12x12/dedbc8/dedbc8.png) `#DEDBC8` | Frame, new tab                              |
+| ![#E9E6D3](https://placehold.co/12x12/e9e6d3/e9e6d3.png) `#E9E6D3` | Toolbar, menus                              |
+| ![#F2F0E3](https://placehold.co/12x12/f2f0e3/f2f0e3.png) `#F2F0E3` | URL bar field, text on wine selections      |
+| ![#D5D2BF](https://placehold.co/12x12/d5d2bf/d5d2bf.png) `#D5D2BF` | Button hover                                |
+| ![#BFBBA6](https://placehold.co/12x12/bfbba6/bfbba6.png) `#BFBBA6` | Sidebar border                              |
+| ![#918D78](https://placehold.co/12x12/918d78/918d78.png) `#918D78` | Menu border                                 |
+| ![#0C0C14](https://placehold.co/12x12/0c0c14/0c0c14.png) `#0C0C14` | Body text                                   |
+| ![#665E4A](https://placehold.co/12x12/665e4a/665e4a.png) `#665E4A` | Inactive tab text                           |
+| ![#655628](https://placehold.co/12x12/655628/655628.png) `#655628` | Icons                                       |
+| ![#7A1F22](https://placehold.co/12x12/7a1f22/7a1f22.png) `#7A1F22` | Focused URL bar ring and text selection, tab line, pressed button, menu and sidebar selection, loading, attention |
 
 Build the package:
 
@@ -114,7 +114,7 @@ To undo: delete the two files from the profile's `chrome/` folder and restart.
 - **Never set `--panel-*` or `--arrowpanel-*` on `:root`.** Those variables leak
   into the toolbar and blank the URL bar. They stay on the popup elements.
 - **Context menus do not get an extra element border.** A second stroke made
-  the right-click panel look detached. Hover is a gold-tinted `#D5D0B9` row
+  the right-click panel look detached. Hover is a gold-tinted ![#D5D0B9](https://placehold.co/12x12/d5d0b9/d5d0b9.png) `#D5D0B9` row
   with a 3px gold rail on the left, not a full ring.
 - **Native menu styling is switched off** (`appearance: none`) on menus and
   menu rows. Without it the COSMIC/GTK hover paints over the colours above.

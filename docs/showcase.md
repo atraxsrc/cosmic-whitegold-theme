@@ -8,19 +8,19 @@ describing itself, written in Markdown and rendered by **Postilla**.
 
 ## Palette
 
-Every text colour is checked against the window background `#DEDBC8`.
+Every text colour is checked against the window background ![#DEDBC8](https://placehold.co/12x12/dedbc8/dedbc8.png) `#DEDBC8`.
 
 | Role | Hex | Contrast on background |
 |------|-----|------------------------|
-| Text | `#0C0C14` | 14.0:1 |
-| Dark gold, accent | `#655628` | 5.2:1 |
-| Olive gold, success | `#725C0A` | 4.6:1 |
-| Bronze, warning | `#6C5319` | 5.2:1 |
-| Wine, error | `#7A1F22` | 7.4:1 |
-| Slate, directories | `#4A545A` | 5.6:1 |
-| Plum, symlinks | `#6A3D5A` | 6.2:1 |
+| Text | ![#0C0C14](https://placehold.co/12x12/0c0c14/0c0c14.png) `#0C0C14` | 14.0:1 |
+| Dark gold, accent | ![#655628](https://placehold.co/12x12/655628/655628.png) `#655628` | 5.2:1 |
+| Olive gold, success | ![#725C0A](https://placehold.co/12x12/725c0a/725c0a.png) `#725C0A` | 4.6:1 |
+| Bronze, warning | ![#6C5319](https://placehold.co/12x12/6c5319/6c5319.png) `#6C5319` | 5.2:1 |
+| Wine, error | ![#7A1F22](https://placehold.co/12x12/7a1f22/7a1f22.png) `#7A1F22` | 7.4:1 |
+| Slate, directories | ![#4A545A](https://placehold.co/12x12/4a545a/4a545a.png) `#4A545A` | 5.6:1 |
+| Plum, symlinks | ![#6A3D5A](https://placehold.co/12x12/6a3d5a/6a3d5a.png) `#6A3D5A` | 6.2:1 |
 
-Containers sit one step away from the background at `#E9E6D3`, which is
+Containers sit one step away from the background at ![#E9E6D3](https://placehold.co/12x12/e9e6d3/e9e6d3.png) `#E9E6D3`, which is
 what frosted glass blurs into.
 
 ## Where the colours go

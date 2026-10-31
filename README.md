@@ -27,25 +27,25 @@ window background.
 
 | Role | Color | Hex |
 |------|-------|-----|
-| Background | ![#dedbc8](https://placehold.co/12x12/dedbc8/dedbc8.png) Parchment | `#DEDBC8` |
-| Containers | ![#e9e6d3](https://placehold.co/12x12/e9e6d3/e9e6d3.png) Linen / Ivory | `#E9E6D3` / `#F2F0E3` |
-| Text | ![#0c0c14](https://placehold.co/12x12/0c0c14/0c0c14.png) Ink | `#0C0C14` |
-| Accent | ![#655628](https://placehold.co/12x12/655628/655628.png) Dark gold | `#655628` |
-| Success | ![#725c0a](https://placehold.co/12x12/725c0a/725c0a.png) Olive gold | `#725C0A` |
-| Warning | ![#6c5319](https://placehold.co/12x12/6c5319/6c5319.png) Bronze | `#6C5319` |
-| Error | ![#7a1f22](https://placehold.co/12x12/7a1f22/7a1f22.png) Wine | `#7A1F22` |
-| Slate | ![#4a545a](https://placehold.co/12x12/4a545a/4a545a.png) Directories, links | `#4A545A` |
-| Plum | ![#6a3d5a](https://placehold.co/12x12/6a3d5a/6a3d5a.png) Symlinks | `#6A3D5A` |
-| Muted | ![#665e4a](https://placehold.co/12x12/665e4a/665e4a.png) Secondary text | `#665E4A` |
-| Dim | ![#7a7259](https://placehold.co/12x12/7a7259/7a7259.png) Comments | `#7A7259` |
-| Sand | ![#9a9078](https://placehold.co/12x12/9a9078/9a9078.png) Borders, box lines | `#9A9078` |
+| Background | ![#dedbc8](https://placehold.co/12x12/dedbc8/dedbc8.png) Parchment | ![#DEDBC8](https://placehold.co/12x12/dedbc8/dedbc8.png) `#DEDBC8` |
+| Containers | ![#e9e6d3](https://placehold.co/12x12/e9e6d3/e9e6d3.png) Linen / Ivory | ![#E9E6D3](https://placehold.co/12x12/e9e6d3/e9e6d3.png) `#E9E6D3` / ![#F2F0E3](https://placehold.co/12x12/f2f0e3/f2f0e3.png) `#F2F0E3` |
+| Text | ![#0c0c14](https://placehold.co/12x12/0c0c14/0c0c14.png) Ink | ![#0C0C14](https://placehold.co/12x12/0c0c14/0c0c14.png) `#0C0C14` |
+| Accent | ![#655628](https://placehold.co/12x12/655628/655628.png) Dark gold | ![#655628](https://placehold.co/12x12/655628/655628.png) `#655628` |
+| Success | ![#725c0a](https://placehold.co/12x12/725c0a/725c0a.png) Olive gold | ![#725C0A](https://placehold.co/12x12/725c0a/725c0a.png) `#725C0A` |
+| Warning | ![#6c5319](https://placehold.co/12x12/6c5319/6c5319.png) Bronze | ![#6C5319](https://placehold.co/12x12/6c5319/6c5319.png) `#6C5319` |
+| Error | ![#7a1f22](https://placehold.co/12x12/7a1f22/7a1f22.png) Wine | ![#7A1F22](https://placehold.co/12x12/7a1f22/7a1f22.png) `#7A1F22` |
+| Slate | ![#4a545a](https://placehold.co/12x12/4a545a/4a545a.png) Directories, links | ![#4A545A](https://placehold.co/12x12/4a545a/4a545a.png) `#4A545A` |
+| Plum | ![#6a3d5a](https://placehold.co/12x12/6a3d5a/6a3d5a.png) Symlinks | ![#6A3D5A](https://placehold.co/12x12/6a3d5a/6a3d5a.png) `#6A3D5A` |
+| Muted | ![#665e4a](https://placehold.co/12x12/665e4a/665e4a.png) Secondary text | ![#665E4A](https://placehold.co/12x12/665e4a/665e4a.png) `#665E4A` |
+| Dim | ![#7a7259](https://placehold.co/12x12/7a7259/7a7259.png) Comments | ![#7A7259](https://placehold.co/12x12/7a7259/7a7259.png) `#7A7259` |
+| Sand | ![#9a9078](https://placehold.co/12x12/9a9078/9a9078.png) Borders, box lines | ![#9A9078](https://placehold.co/12x12/9a9078/9a9078.png) `#9A9078` |
 
 | Role | DarkGold | White Gold |
 |------|----------|------------|
-| Background | `#1B1B1B` | `#DEDBC8` |
-| Text | `#EFEBDC` | `#0C0C14` |
-| Accent | `#C0AF7F` | `#655628` |
-| Slate | `#77838A` | `#4A545A` |
+| Background | ![#1B1B1B](https://placehold.co/12x12/1b1b1b/1b1b1b.png) `#1B1B1B` | ![#DEDBC8](https://placehold.co/12x12/dedbc8/dedbc8.png) `#DEDBC8` |
+| Text | ![#EFEBDC](https://placehold.co/12x12/efebdc/efebdc.png) `#EFEBDC` | ![#0C0C14](https://placehold.co/12x12/0c0c14/0c0c14.png) `#0C0C14` |
+| Accent | ![#C0AF7F](https://placehold.co/12x12/c0af7f/c0af7f.png) `#C0AF7F` | ![#655628](https://placehold.co/12x12/655628/655628.png) `#655628` |
+| Slate | ![#77838A](https://placehold.co/12x12/77838a/77838a.png) `#77838A` | ![#4A545A](https://placehold.co/12x12/4a545a/4a545a.png) `#4A545A` |
 
 ---
 
@@ -124,7 +124,7 @@ This is a **Light** theme, so it goes in COSMIC's Light slot:
 
 Settings → Desktop → Appearance → **Light** → **Import** → `cosmic/WhiteGold.ron`
 
-Accent is dark gold `#655628`. Use the `+` control if you want a custom swatch.
+Accent is dark gold ![#655628](https://placehold.co/12x12/655628/655628.png) `#655628`. Use the `+` control if you want a custom swatch.
 
 Frosted glass is on in the `.ron` at `frosted: Low` with an opacity table of
 0.66 to 0.96, tinted with the palette's middle neutral, for windows, panel,
@@ -412,7 +412,7 @@ cp btop/WhiteGold.theme ~/.config/btop/themes/
 Icons: **Cosmic-WhiteGold**, the [Kanagawa icons](https://github.com/Fausto-Korpsvart/Kanagawa-GKT-Theme/tree/main/icons/Kanagawa)
 by Fausto Korpsvart recolored to this palette in
 [cosmic-icon-themes](https://github.com/atraxsrc/cosmic-icon-themes). Folders come in
-four colors: **Gold** `#655628` (default), **Red** `#7A1F22`, **Slate** `#4A545A` and **Ink** `#0C0C14` with gold symbols.
+four colors: **Gold** ![#655628](https://placehold.co/12x12/655628/655628.png) `#655628` (default), **Red** ![#7A1F22](https://placehold.co/12x12/7a1f22/7a1f22.png) `#7A1F22`, **Slate** ![#4A545A](https://placehold.co/12x12/4a545a/4a545a.png) `#4A545A` and **Ink** ![#0C0C14](https://placehold.co/12x12/0c0c14/0c0c14.png) `#0C0C14` with gold symbols.
 
 ![Cosmic-WhiteGold folder colors](https://raw.githubusercontent.com/atraxsrc/cosmic-icon-themes/main/previews/Cosmic-WhiteGold.png)
 
