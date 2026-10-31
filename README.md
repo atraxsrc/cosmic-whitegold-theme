@@ -21,9 +21,7 @@ Firefox, Brave, cursor, wallpapers. The light sibling of
 
 ## Palette
 
-Parchment and ink from the Omarchy
-[White Gold](https://github.com/HANCORE-linux/omarchy-whitegold-theme) theme,
-with the accent moved from green to the dark gold of DarkGold's light mode so
+Parchment and ink from the White Gold palette, with the accent moved from green to the dark gold of DarkGold's light mode so
 the two rices read as one family. Every text colour is at least 4.5:1 on the
 window background.
 
@@ -433,10 +431,7 @@ login screen (asks for sudo); `--user` is the default.
 Wallpapers ship in [`backgrounds/`](backgrounds/), named `whitegold-<subject>.png`:
 the samurai against a gold sun (the one in the screenshot), the Harbor Dark reaper,
 the Hyundai blueprint and the sushi switch, rendered on parchment and gold. The
-subjects come from [HANCORE-linux](https://github.com/HANCORE-linux) (MIT) and
-[cool-wallpapers](https://github.com/atraxsrc/cool-wallpapers). More from the upstream theme in cool-wallpapers, folder
-[`omarchy/white-gold/`](https://github.com/atraxsrc/cool-wallpapers/tree/main/omarchy/white-gold) (MIT): `bg1`, dry gold
-grass under a pale sky, and `bg2`, two ink koi, fit this palette best.
+subjects come from [cool-wallpapers](https://github.com/atraxsrc/cool-wallpapers) (MIT).
 
 Settings → Wallpaper → Add image → a file from `backgrounds/`, or one you downloaded.
 
@@ -562,10 +557,8 @@ puts the Pop cursor back.
 
 ## Credits
 
-- Palette and wallpapers: [omarchy-whitegold-theme](https://github.com/HANCORE-linux/omarchy-whitegold-theme)
-  by HANCORE-linux (MIT). This repo is a COSMIC port with a dark gold accent;
-  the upstream wallpapers are mirrored in cool-wallpapers, the renders for this
-  palette are in `backgrounds/`.
+- Palette and wallpapers: White Gold (MIT). This repo is a COSMIC port with a
+  dark gold accent; the renders for this palette are in `backgrounds/`.
 - Dark sibling and shared baseline: [cosmic-darkgold-theme](https://github.com/atraxsrc/cosmic-darkgold-theme).
 
 ## License
