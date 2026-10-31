@@ -2,6 +2,8 @@
 
 # COSMIC · White Gold
 
+![White Gold palette](assets/palette.png)
+
 Pop!_OS 24.04 on COSMIC in parchment and dark gold: desktop, terminal, shell,
 Firefox, Brave, cursor, wallpapers. The light sibling of
 [cosmic-darkgold-theme](https://github.com/atraxsrc/cosmic-darkgold-theme).
@@ -108,6 +110,7 @@ window background.
 │   └── install.sh
 ├── assets
 │   ├── cursors/                 # cursor preview
+│   ├── palette.png              # the 16 terminal colours, under the title
 │   ├── screenshot.png           # README screenshot
 │   └── wallpaper.png            # the samurai on the bare desktop
 ├── docs
