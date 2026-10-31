@@ -108,6 +108,7 @@ window background.
 │   └── install.sh
 ├── assets
 │   ├── cursors/                 # cursor preview
+│   ├── cosmic-term/             # scheme previews for cosmic-term/README.md
 │   ├── palette.png              # the 16 terminal colours, under the title
 │   ├── screenshot.png           # README screenshot
 │   └── wallpaper.png            # the samurai on the bare desktop
@@ -179,6 +180,11 @@ dropdown will look like it did nothing.
 Ink text on parchment; wine for errors, olive gold for strings and success,
 slate for directories. Bright colours are deeper, dim colours lighter, so bold
 and dim still read on a light background.
+
+If ink is not the plain text you want, there are five other variants
+with the same ANSI colours, from Muted ![#665E4A](https://placehold.co/12x12/665e4a/665e4a.png) `#665E4A` to
+Graphite ![#3B3B3B](https://placehold.co/12x12/3b3b3b/3b3b3b.png) `#3B3B3B`. Previews and which to
+pick: [`cosmic-term/README.md`](cosmic-term/README.md).
 
 ---
 
