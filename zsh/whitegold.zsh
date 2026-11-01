@@ -65,6 +65,17 @@ fi
 
 (( $+commands[cosmic-edit] )) && alias edit='cosmic-edit'
 
+# lazygit reads one config file; stack the rice colours (lazygit/whitegold.yml,
+# installed by ./lazygit/install.sh) on top of your own config.yml
+if (( $+commands[lazygit] )); then
+    _whitegold_lg="${XDG_CONFIG_HOME:-$HOME/.config}/lazygit"
+    if [[ -f $_whitegold_lg/whitegold.yml ]]; then
+        export LG_CONFIG_FILE="$_whitegold_lg/whitegold.yml"
+        [[ -f $_whitegold_lg/config.yml ]] && LG_CONFIG_FILE="$_whitegold_lg/config.yml,$LG_CONFIG_FILE"
+    fi
+    unset _whitegold_lg
+fi
+
 if (( $+commands[nvim] )); then
     alias vi='nvim'
     alias vim='nvim'
