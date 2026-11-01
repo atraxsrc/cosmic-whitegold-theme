@@ -1,0 +1,6 @@
+name = "White Gold"
+mode = "light"
+theme = "WhiteGold.ron"
+pair = "darkgold"
+terminal = "WhiteGold-term.ron"
+btop = "WhiteGold"
