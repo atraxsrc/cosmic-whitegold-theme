@@ -42,7 +42,7 @@ flowchart LR
 - [x] `./icons/install.sh` for the **Cosmic-WhiteGold** icons, `./cosmic/install.sh` for fonts and the terminal look
 - [x] `./zsh/install.sh`, `./lsd/install.sh`, `./fastfetch/install.sh`
 - [x] Cursor: Oxygen-WhiteGold-Gold
-- [x] Wallpaper: `backgrounds/whitegold-samurai.png`
+- [x] Wallpaper: `backgrounds/whitegold-anime.png`
 - [x] Screenshot for the README
 
 ## The baseline every rice shares
