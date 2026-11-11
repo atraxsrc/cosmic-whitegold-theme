@@ -169,13 +169,24 @@ This is a **Light** theme, so it goes in COSMIC's Light slot:
 
 Settings → Desktop → Appearance → **Light** → **Import** → `cosmic/WhiteGold.ron`
 
+Or from a terminal in this folder, which takes the whole file:
+
+```bash
+cosmic-settings appearance import cosmic/WhiteGold.ron
+```
+
+Since the COSMIC builds after 1.11.0 the **Import** button keeps your current
+frosted glass (level, on/off per surface, opacity), gaps and active hint, and
+takes only the colours, corners, fonts and icons from the file. The terminal
+command applies this rice's frosted glass too, and so does `themebox flip`.
+
 Accent is dark gold ![#655628](https://placehold.co/12x12/655628/655628.png) `#655628`. Use the `+` control if you want a custom swatch.
 
 Frosted glass is on in the `.ron` at `frosted: Low` with an opacity table of
 0.66 to 0.96, tinted with the palette's middle neutral, for windows, panel,
 applets and system UI (maximized apps stay solid), and corners are squared
 (`radius_*: 2.0`), the same as the DarkGold baseline. Adjust frosted glass on
-Appearance → Style → Frosted glass after import; those sliders survive a theme switch.
+Appearance → Style → Frosted glass after import; the Import button keeps those sliders.
 
 Export from Appearance if you tweak backgrounds / tints so you do not lose them.
 
