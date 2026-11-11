@@ -204,7 +204,7 @@ per-rice files, see below.
 | Where | Setting |
 |-------|---------|
 | Fonts | Interface `Maple Mono Normal`, monospace `Maple Mono Normal NFM` |
-| Icons | Cosmic-WhiteGold-Gold |
+| Icons | Cosmic-WhiteGold-Ink |
 | Windows | Minimize / maximize buttons hidden, theme applied to GNOME apps |
 | Terminal | Maple Mono 15 (weights 500 / bold 800 / dim 300), 77% opacity, no header bar, White Gold (light scheme) |
 
@@ -687,13 +687,13 @@ cp btop/WhiteGold.theme ~/.config/btop/themes/
 Icons: **Cosmic-WhiteGold**, the [Kanagawa icons](https://github.com/Fausto-Korpsvart/Kanagawa-GKT-Theme/tree/main/icons/Kanagawa)
 by Fausto Korpsvart recolored to this palette in
 [cosmic-icon-themes](https://github.com/atraxsrc/cosmic-icon-themes). Folders come in
-four colors: **Gold** ![#655628](https://placehold.co/12x12/655628/655628.png) `#655628` (default), **Red** ![#7A1F22](https://placehold.co/12x12/7a1f22/7a1f22.png) `#7A1F22`, **Slate** ![#4A545A](https://placehold.co/12x12/4a545a/4a545a.png) `#4A545A` and **Ink** ![#0C0C14](https://placehold.co/12x12/0c0c14/0c0c14.png) `#0C0C14` with gold symbols.
+four colors: **Gold** ![#655628](https://placehold.co/12x12/655628/655628.png) `#655628`, **Red** ![#7A1F22](https://placehold.co/12x12/7a1f22/7a1f22.png) `#7A1F22`, **Slate** ![#4A545A](https://placehold.co/12x12/4a545a/4a545a.png) `#4A545A` and **Ink** ![#0C0C14](https://placehold.co/12x12/0c0c14/0c0c14.png) `#0C0C14` (default) with gold symbols.
 
 ![Cosmic-WhiteGold folder colors](https://raw.githubusercontent.com/atraxsrc/cosmic-icon-themes/main/previews/Cosmic-WhiteGold.png)
 
 ```bash
-./icons/install.sh                # Gold folders
-./icons/install.sh --variant Red  # or Slate, Ink
+./icons/install.sh                 # Ink folders
+./icons/install.sh --variant Gold  # or Red, Slate
 ```
 
 It downloads the pack from the latest cosmic-icon-themes release, checks its SHA256,
