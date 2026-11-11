@@ -18,6 +18,6 @@ done
 
 cat <<'EOF'
 
-Done. Needs the Maple fonts and Cosmic-WhiteGold icons (./icons/install.sh) installed, and the White Gold
+Done. Needs the fonts (./fonts/install.sh) and Cosmic-WhiteGold icons (./icons/install.sh) installed, and the White Gold
 terminal scheme imported, or COSMIC falls back to its defaults.
 EOF
